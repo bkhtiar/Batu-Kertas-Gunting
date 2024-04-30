@@ -31,7 +31,7 @@ function playGame(player) {
     let i = 0;
     const putar = setInterval(function () {
       pilihanComputer.innerHTML = pilihanPlayer[i++].textContent
-      if(i === 2){
+      if(i === 3){
         i = 0
       }
      }, 100);
