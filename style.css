@@ -46,3 +46,7 @@ button {
 .kalah, #displaySkorComputer{
   color: rgb(221,0,0);
 }
+
+.mgt {
+  margin-top: 50vh;
+}
