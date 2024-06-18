@@ -47,6 +47,7 @@ button {
   color: rgb(221,0,0);
 }
 
-.mgt {
+.menang.mgt,
+.kalah.mgt {
   margin-top: 50vh;
 }
