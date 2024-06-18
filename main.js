@@ -69,12 +69,12 @@ function playGame(player) {
       
       setTimeout(function() {
        if (skorPlayer === 3) {
-          document.body.innerHTML = `<h1 class="menang" margin-top="50vh">CIEE MENANG....</h1>`
+          document.body.innerHTML = `<h1 class="menang mgt">MENANG....</h1>`
           setTimeout(function() {
             location.reload()
           }, 2000);
         } else if ( skorComputer === 3) {
-          document.body.innerHTML = `<h1 class="kalah" margin-top="50vh">KALAHAN CUPU</h1>`
+          document.body.innerHTML = `<h1 class="kalah mgt">KALAHAN CUPU</h1>`
           setTimeout(function() {
             location.reload()
           }, 2000);
