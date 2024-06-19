@@ -69,7 +69,7 @@ function playGame(player) {
       
       setTimeout(function() {
        if (skorPlayer === 3) {
-          document.body.innerHTML = `<h1 class="menang mgt">MENANG....</h1>`
+          document.body.innerHTML = `<h1 class="menang mgt">CIEE MENANG....</h1>`
           setTimeout(function() {
             location.reload()
           }, 2000);
